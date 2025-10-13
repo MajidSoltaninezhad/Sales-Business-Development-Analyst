@@ -1,7 +1,9 @@
 # 🧭 Sales Performance Analysis Project
 
 ## 🎯 Goal
+
 Analyze **sales performance** to identify:
+
 - The most **profitable products and categories**
 - The best and worst **performing regions**
 - The **top-performing salespeople**
@@ -14,7 +16,9 @@ Analyze **sales performance** to identify:
 ## 🪜 Step 1: Project Roadmap
 
 ### 1. Project Planning
+
 **Objectives:**
+
 - Find top-performing **products** and **categories**
 - Identify **underperforming regions**
 - Analyze **monthly revenue trends**
@@ -23,6 +27,7 @@ Analyze **sales performance** to identify:
 ---
 
 ### 2. Data Collection
+
 Possible datasets (CSV format):
 
 - 📂 [Kaggle: “Superstore Sales Dataset”](https://www.kaggle.com/datasets)
@@ -34,7 +39,9 @@ Possible datasets (CSV format):
 ---
 
 ### 3. Data Cleaning
+
 Tasks:
+
 - Remove **duplicates**
 - Handle **missing values**
 - Fix **data types** (e.g., convert `Order Date` → datetime)
@@ -44,7 +51,9 @@ Tasks:
 ---
 
 ### 4. Data Exploration (EDA)
+
 Using **Python (Pandas, Matplotlib, Seaborn)**:
+
 - Summarize data with `.describe()` and `.info()`
 - Visualize **sales by category, region, and month**
 - Analyze **profit vs. discount** relationships
@@ -52,7 +61,9 @@ Using **Python (Pandas, Matplotlib, Seaborn)**:
 ---
 
 ### 5. Data Modeling
+
 You’ll create:
+
 - **New columns:** Total Sales, Total Profit, Average Discount
 - **Aggregations:** Group by Region, Category, or Salesperson
 - **Trend analysis:** Compare monthly or yearly results
@@ -60,7 +71,9 @@ You’ll create:
 ---
 
 ### 6. Data Analysis & Insights
+
 Business questions:
+
 - Which **product category** yields the highest profit?
 - Which **region or city** has the best performance?
 - How do **discounts** affect profit margins?
@@ -70,31 +83,34 @@ Business questions:
 ---
 
 ### 7. Visualization
-| Chart Type | Purpose |
-|-------------|----------|
-| 📊 Bar Chart | Top products by profit |
-| 📈 Line Chart | Monthly revenue trends |
-| 🥧 Pie Chart | Category-wise sales share |
-| 🌡️ Heatmap | Correlation between variables |
+
+| Chart Type    | Purpose                       |
+| ------------- | ----------------------------- |
+| 📊 Bar Chart  | Top products by profit        |
+| 📈 Line Chart | Monthly revenue trends        |
+| 🥧 Pie Chart  | Category-wise sales share     |
+| 🌡️ Heatmap    | Correlation between variables |
 
 ---
 
 ### 8. Reporting
+
 Deliverables:
+
 - Short **report** (PowerPoint or PDF)
-- *(Optional)* **Interactive dashboard** (Power BI / Tableau)
+- _(Optional)_ **Interactive dashboard** (Power BI / Tableau)
 
 ---
 
 ## 🧰 Step 2: Tools & Technologies
 
-| Stage | Tool | Description |
-|--------|------|-------------|
-| **Data Cleaning** | Python (Pandas, NumPy) | Clean and prepare raw data |
-| **Exploration** | Matplotlib, Seaborn | Visualize patterns and trends |
-| **Modeling** | Pandas (`groupby`, `pivot_table`) | Summarize and analyze data |
-| **Reporting** | PowerPoint / Google Slides | Present insights |
-| **Optional Dashboard** | Power BI / Tableau | Create interactive reports |
+| Stage                  | Tool                              | Description                   |
+| ---------------------- | --------------------------------- | ----------------------------- |
+| **Data Cleaning**      | Python (Pandas, NumPy)            | Clean and prepare raw data    |
+| **Exploration**        | Matplotlib, Seaborn               | Visualize patterns and trends |
+| **Modeling**           | Pandas (`groupby`, `pivot_table`) | Summarize and analyze data    |
+| **Reporting**          | PowerPoint / Google Slides        | Present insights              |
+| **Optional Dashboard** | Power BI / Tableau                | Create interactive reports    |
 
 ---
 
@@ -102,30 +118,32 @@ Deliverables:
 
 **Dataset:** [Sample - Superstore Sales Dataset (Kaggle)](https://www.kaggle.com/datasets)
 
-| Column Name | Description |
-|--------------|-------------|
-| `Order ID` | Unique identifier for each order |
-| `Order Date` | Date of the order |
-| `Ship Date` | Date when the order was shipped |
-| `Customer Name` | Customer’s name |
-| `Segment` | Consumer / Corporate / Home Office |
-| `Country`, `City`, `Region` | Geographic information |
-| `Category`, `Sub-Category` | Product details |
-| `Sales` | Sales amount |
-| `Quantity` | Number of items sold |
-| `Discount` | Discount applied |
-| `Profit` | Profit from sale |
+| Column Name                 | Description                        |
+| --------------------------- | ---------------------------------- |
+| `Order ID`                  | Unique identifier for each order   |
+| `Order Date`                | Date of the order                  |
+| `Ship Date`                 | Date when the order was shipped    |
+| `Customer Name`             | Customer’s name                    |
+| `Segment`                   | Consumer / Corporate / Home Office |
+| `Country`, `City`, `Region` | Geographic information             |
+| `Category`, `Sub-Category`  | Product details                    |
+| `Sales`                     | Sales amount                       |
+| `Quantity`                  | Number of items sold               |
+| `Discount`                  | Discount applied                   |
+| `Profit`                    | Profit from sale                   |
 
 ---
 
 ## 🚀 Final Deliverables
-- ✅ Cleaned dataset  
-- ✅ EDA & insights  
-- ✅ Visual reports  
-- ✅ *(Optional)* Power BI / Tableau dashboard
+
+- ✅ Cleaned dataset
+- ✅ EDA & insights
+- ✅ Visual reports
+- ✅ _(Optional)_ Power BI / Tableau dashboard
 
 ---
 
 ## 📅 Project Status
-**Stage:** 🧩 *Planning & Dataset Selection*  
+
+**Stage:** 🧩 _Planning & Dataset Selection_  
 **Next Step:** Choose and import dataset (CSV format)
