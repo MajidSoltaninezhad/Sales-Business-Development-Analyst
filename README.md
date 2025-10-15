@@ -3,22 +3,17 @@
 Project Name: Sales_Business_Development_Analysis
 
 Folder Structure:
-
 Sales_Business_Development_Analysis/
-│
 ├── data/
-│ └── Sample - Superstore.csv # Raw dataset
+│ ├── Sample - Superstore.csv # Raw dataset
 │ └── clean_superstore.csv # Cleaned dataset
-│
 ├── notebooks/
 │ ├── 01_data_cleaning.ipynb # Load, clean, prepare data
 │ ├── 02_eda.ipynb # Exploratory Data Analysis
 │ ├── 03_kpi_modeling.ipynb # KPI calculations & insights
 │ └── 04_dashboard.ipynb # Combined visualizations/dashboard
-│
 ├── reports/
 │ └── Sales_Insights.pdf # Optional: export from notebook or PPT summary
-│
 └── README.md # Project documentation for GitHub
 
 2️⃣ Project Steps & Tools
