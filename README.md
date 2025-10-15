@@ -99,24 +99,9 @@ Export reports to PDF or PowerPoint for presentations
 
 Update cleaned dataset regularly for analysis
 
-yaml
-Copy code
-
 ---
 
-This is **fully Markdown-ready for GitHub**:
 
-- ✅ Headings (`#`, `##`)
-- ✅ Bold and code formatting (`**text**`, `` `code` ``)
-- ✅ Code blocks for folder structure and bash commands (triple backticks)
-- ✅ Tables for steps
-- ✅ Bullet points for questions, tools, recommendations
-
----
-
-If you want, I can also **add badges at the top** (Python, Jupyter, license, stars) so your GitHub README **looks like a professional project**.
-
-Do you want me to add badges?
 
 
 
